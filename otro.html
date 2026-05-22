@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Módulo de Control Dinámico</title>
+    <link rel="stylesheet" href="./segundo.css">
+</head>
+<body>
+
+    <div class="interfaz-bloque">
+        <h2>Captura Activa de Datos</h2>
+        
+        <div class="campo-formulario">
+            <label>Nombre:</label>
+            <input type="text" id="entradaNombre">
+        </div>
+
+        <div class="campo-formulario">
+            <label>Apellido:</label>
+            <input type="text" id="entradaApellido">
+        </div>
+
+        <div class="campo-formulario">
+            <label>Cédula:</label>
+            <input type="text" id="entradaCedula">
+        </div>
+
+        <button id="btnProcesarDatos">Agregar</button>
+        <br><br>
+        <a href="../index.html">Volver a la Bienvenida</a>
+    </div>
+
+    <table class="tabla-registros">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Cédula</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody id="nodoContenedorFilas">
+            </tbody>
+    </table>
+
+    <script src="./segundo.js"></script>
+</body>
+</html>
